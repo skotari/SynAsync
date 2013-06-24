@@ -1,0 +1,3 @@
+Consider a Web service WS1 that has one operation OP11. OP11 returns as a result (the time for executing OP11). OP11 invokes two operations OP21 followed by OP31 offered by two other Web services WS2 and WS3 respectively. OP21 waits for 3 seconds then returns “OP21 Done” to OP11. OP31 waits for 5 seconds then returns “OP31 Done”. Users will access a simple Web
+
+page where they will invoke OP11 through two techniques: synchronous and asynchronous, and receive the corresponding responses. Make sure you understand and demonstrate the difference between the two. Have two buttons on the Web page (or a dropdown list) for choosing the desired technique. For this part, you may use SOAP-based services.
